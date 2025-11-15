@@ -1,46 +1,56 @@
-## Ejercicio de machine learning 
-```
-Este proyecto implementa un flujo completo de machine learning siguiendo la metodología CRISP-DM, abordando: análisis exploratorio, preprocesamiento, modelado, evaluación, calibración de probabilidades e interpretación de resultados.
+# Ejercicio de machine learning
+
+Este proyecto implementa un flujo completo de machine learning siguiendo la metodología **CRISP-DM**, abordando análisis exploratorio, preprocesamiento, modelado, evaluación, calibración de probabilidades e interpretación de resultados.  
 El objetivo es construir modelos predictivos para clasificar pacientes con y sin diabetes a partir de indicadores de salud y variables sociodemográficas.
 
-### Estructura
-```
+---
+
+## Estructura del proyecto
+
+```text
 Taller_ML_Clasificacion/
 │
 ├── data/
 │   ├── diabetes_dataset.csv
-│   ├── diabetes_dataset_recoded.csv          # Solo para descriptivos del EDA
+│   ├── diabetes_dataset_recoded.csv        # Solo para descriptivos del EDA
 │   └── processed/
 │       ├── X_train.csv
 │       ├── X_test.csv
 │       ├── y_train.csv
 │       └── y_test.csv
 │
-├── models/                                   # Referencia: no están en GitHub por superar 100 MB
-│   ├── modelo_logreg.joblib                  # Enlace: https://drive.google.com/file/d/1bN6MgJMEs1MKK2Q4cuMF2s9bJHcq5cwn/view?usp=drive_link
-│   ├── modelo_tree.joblib                    # Enlace: https://drive.google.com/file/d/1IefmBSqJDvzuppI0YZrZzmQZ2PHI_B-Y/view?usp=drive_link
-│   ├── modelo_rf.joblib                      # Enlace: https://drive.google.com/file/d/19kwLh3Zr1LeGZUabkAryBkclpUFaFdXt/view?usp=drive_link
-│   ├── best_logreg_balanced.joblib           # Enlace: https://drive.google.com/file/d/1ns91ka6fEol0Isn4NU5NddzEo5tyfwIO/view?usp=drive_link
-│   ├── modelo_final_rf_calibrado.joblib      # Enlace: https://drive.google.com/file/d/1oQN_N9uUga_GFXm7yFddNeWdDGKEWqr2/view?usp=drive_link
-│   └── otras versiones intermedias...        # Enlace: https://drive.google.com/drive/folders/1VzcCiNL_ufUO0LfqQLXk9iYl-AY4Gx4a?usp=drive_link
+├── models/                                 # Referencia (no subidos por >100 MB)
+│   ├── modelo_logreg.joblib                (Drive)
+│   ├── modelo_tree.joblib                  (Drive)
+│   ├── modelo_rf.joblib                    (Drive)
+│   ├── best_logreg_balanced.joblib         (Drive)
+│   ├── modelo_final_rf_calibrado.joblib    (Drive)
+│   └── otras versiones intermedias...      (Drive)
 │
 ├── notebooks/
-│   ├── 01_EDA.ipynb                          # Exploración de datos
-│   ├── 02_Preprocesamiento.ipynb             # Pipelines y preparación
-│   ├── 03_Modelado.ipynb                     # Entrenamiento de modelos
-│   └── 04_Evaluación y comunicación.ipynb    # Métricas, curvas, resultados
+│   ├── 01_EDA.ipynb                        # Exploración de datos
+│   ├── 02_Preprocesamiento.ipynb           # Pipelines y preparación
+│   ├── 03_Modelado.ipynb                   # Entrenamiento de modelos
+│   └── 04_Evaluación y comunicación.ipynb  # Métricas y comunicación de resultados
 │
-├── venv/                                     # No subido por tamaño; ignorado en .gitignore
-│
-├── requirements.txt                          # Dependencias del proyecto
-└── README.md                                 # Este archivo
+├── venv/                                   # Ignorado en .gitignore
+├── requirements.txt                        # Dependencias
+└── README.md                               # Documentación del proyecto
 ```
 
-## Entorno de ejecución 
+---
+
+## Entorno de ejecución
 
 Este proyecto fue desarrollado y probado en:
--Python: 3.11.6
--Entorno virtual: venv
--Sistema operativo: Windows 11
--IDE: Visual Studio Code
--Extensiones necesarias: Python y Jupyter
+
+- **Python:** 3.11.6  
+- **Entorno virtual:** venv  
+- **Sistema operativo:** Windows 11  
+- **IDE recomendado:** Visual Studio Code  
+- **Extensiones recomendadas:**  
+  - Python  
+  - Jupyter
+
+---
+
