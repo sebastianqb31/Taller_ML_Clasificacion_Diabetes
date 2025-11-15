@@ -2,8 +2,9 @@
 ```
 Este proyecto implementa un flujo completo de machine learning siguiendo la metodología CRISP-DM, abordando: análisis exploratorio, preprocesamiento, modelado, evaluación, calibración de probabilidades e interpretación de resultados.
 El objetivo es construir modelos predictivos para clasificar pacientes con y sin diabetes a partir de indicadores de salud y variables sociodemográficas.
-```
 
+### Estructura
+```
 Taller_ML_Clasificacion/
 │
 ├── data/
@@ -16,12 +17,12 @@ Taller_ML_Clasificacion/
 │       └── y_test.csv
 │
 ├── models/                                   # Referencia: no están en GitHub por superar 100 MB
-│   ├── modelo_logreg.joblib                  # https://drive.google.com/file/d/1bN6MgJMEs1MKK2Q4cuMF2s9bJHcq5cwn/view?usp=drive_link
-│   ├── modelo_tree.joblib                    # https://drive.google.com/file/d/1IefmBSqJDvzuppI0YZrZzmQZ2PHI_B-Y/view?usp=drive_link
-│   ├── modelo_rf.joblib                      # https://drive.google.com/file/d/19kwLh3Zr1LeGZUabkAryBkclpUFaFdXt/view?usp=drive_link
-│   ├── best_logreg_balanced.joblib           # https://drive.google.com/file/d/1ns91ka6fEol0Isn4NU5NddzEo5tyfwIO/view?usp=drive_link
-│   ├── modelo_final_rf_calibrado.joblib      # https://drive.google.com/file/d/1oQN_N9uUga_GFXm7yFddNeWdDGKEWqr2/view?usp=drive_link
-│   └── otras versiones intermedias...        # https://drive.google.com/drive/folders/1VzcCiNL_ufUO0LfqQLXk9iYl-AY4Gx4a?usp=drive_link
+│   ├── modelo_logreg.joblib                  # Enlace: https://drive.google.com/file/d/1bN6MgJMEs1MKK2Q4cuMF2s9bJHcq5cwn/view?usp=drive_link
+│   ├── modelo_tree.joblib                    # Enlace: https://drive.google.com/file/d/1IefmBSqJDvzuppI0YZrZzmQZ2PHI_B-Y/view?usp=drive_link
+│   ├── modelo_rf.joblib                      # Enlace: https://drive.google.com/file/d/19kwLh3Zr1LeGZUabkAryBkclpUFaFdXt/view?usp=drive_link
+│   ├── best_logreg_balanced.joblib           # Enlace: https://drive.google.com/file/d/1ns91ka6fEol0Isn4NU5NddzEo5tyfwIO/view?usp=drive_link
+│   ├── modelo_final_rf_calibrado.joblib      # Enlace: https://drive.google.com/file/d/1oQN_N9uUga_GFXm7yFddNeWdDGKEWqr2/view?usp=drive_link
+│   └── otras versiones intermedias...        # Enlace: https://drive.google.com/drive/folders/1VzcCiNL_ufUO0LfqQLXk9iYl-AY4Gx4a?usp=drive_link
 │
 ├── notebooks/
 │   ├── 01_EDA.ipynb                          # Exploración de datos
@@ -31,15 +32,15 @@ Taller_ML_Clasificacion/
 │
 ├── venv/                                     # No subido por tamaño; ignorado en .gitignore
 │
-├── requirements.txt                           # Dependencias del proyecto
-└── README.md                                  # Este archivo
+├── requirements.txt                          # Dependencias del proyecto
+└── README.md                                 # Este archivo
+```
 
 ## Entorno de ejecución 
-```
+
 Este proyecto fue desarrollado y probado en:
 -Python: 3.11.6
 -Entorno virtual: venv
 -Sistema operativo: Windows 11
 -IDE: Visual Studio Code
 -Extensiones necesarias: Python y Jupyter
-```
