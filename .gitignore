@@ -1,0 +1,16 @@
+# Ignorar todos los modelos
+models/*
+
+# Entorno virtual
+venv/
+
+# Cachés
+__pycache__/
+.ipynb_checkpoints/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
