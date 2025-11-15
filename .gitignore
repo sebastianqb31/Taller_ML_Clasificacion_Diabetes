@@ -1,16 +1,17 @@
-# Ignorar todos los modelos
-models/*
+# Ignorar modelos
+models/*.joblib
 
-# Entorno virtual
+# Ignorar entorno virtual
 venv/
 
-# Cachés
+# Python cachés
 __pycache__/
-.ipynb_checkpoints/
+*.pyc
+*.pyo
+*.pyd
 
-# Archivos del sistema
-.DS_Store
-Thumbs.db
+# Jupyter checkpoints
+.ipynb_checkpoints/
 
 # VS Code
 .vscode/

@@ -15,7 +15,7 @@ Taller_ML_Clasificacion/
 │       ├── y_train.csv
 │       └── y_test.csv
 │
-├── models/ # Solo referencia; los modelos se descargan por enlace debido a que exceden los 100 MG permitidos por GitHub
+├── models/ # Solo referencia; los modelos se descargan por enlace debido a que exceden los 100 MB permitidos por GitHub
 │   ├── modelo_logreg.joblib                # Enlace: https://drive.google.com/file/d/1bN6MgJMEs1MKK2Q4cuMF2s9bJHcq5cwn/view?usp=drive_link
 │   ├── modelo_tree.joblib                  # Enlace: https://drive.google.com/file/d/1IefmBSqJDvzuppI0YZrZzmQZ2PHI_B-Y/view?usp=drive_link 
 │   ├── modelo_rf.joblib                    # Enlace: https://drive.google.com/file/d/19kwLh3Zr1LeGZUabkAryBkclpUFaFdXt/view?usp=drive_link
@@ -27,9 +27,9 @@ Taller_ML_Clasificacion/
 │   ├── 01_EDA.ipynb                        # Exploración de datos
 │   ├── 02_Preprocesamiento.ipynb           # Pipelines y preparación
 │   ├── 03_Modelado.ipynb                   # Entrenamiento de modelos
-│   └── 04_Evaluación y comunicación.ipynb  # Métricas, matrices, curvas, comunicación
+│   └── 04_Evaluación y comunicación.ipynb  # Métricas, matrices, curvas y comunicación de resultados
 │
-├── venv/                                   # Entorno virtual de Python
+├── venv/ # Solo de referencia; tampoco se pudo subir por exceder los 100 MB
 ├── requirements.txt                        # Dependencias instaladas
 └── README.md                               # Este archivo
 
