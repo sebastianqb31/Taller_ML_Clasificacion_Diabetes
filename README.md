@@ -20,12 +20,12 @@ Taller_ML_Clasificacion/
 │       └── y_test.csv
 │
 ├── models/                                 # Referencia (no subidos por >100 MB)
-│   ├── modelo_logreg.joblib                (Drive)
-│   ├── modelo_tree.joblib                  (Drive)
-│   ├── modelo_rf.joblib                    (Drive)
-│   ├── best_logreg_balanced.joblib         (Drive)
-│   ├── modelo_final_rf_calibrado.joblib    (Drive)
-│   └── otras versiones intermedias...      (Drive)
+│   ├── modelo_logreg.joblib                # Enlace: https://drive.google.com/file/d/1bN6MgJMEs1MKK2Q4cuMF2s9bJHcq5cwn/view?usp=drive_link
+│   ├── modelo_tree.joblib                  # Enlace: https://drive.google.com/file/d/1IefmBSqJDvzuppI0YZrZzmQZ2PHI_B-Y/view?usp=drive_link
+│   ├── modelo_rf.joblib                    # Enlace: https://drive.google.com/file/d/19kwLh3Zr1LeGZUabkAryBkclpUFaFdXt/view?usp=drive_link
+│   ├── best_logreg_balanced.joblib         # Enlace: https://drive.google.com/file/d/1ns91ka6fEol0Isn4NU5NddzEo5tyfwIO/view?usp=drive_link
+│   ├── modelo_final_rf_calibrado.joblib    # Enlace: https://drive.google.com/file/d/1oQN_N9uUga_GFXm7yFddNeWdDGKEWqr2/view?usp=drive_link
+│   └── otras versiones intermedias...      # Enlace: https://drive.google.com/drive/folders/1VzcCiNL_ufUO0LfqQLXk9iYl-AY4Gx4a?usp=drive_link
 │
 ├── notebooks/
 │   ├── 01_EDA.ipynb                        # Exploración de datos
@@ -33,7 +33,7 @@ Taller_ML_Clasificacion/
 │   ├── 03_Modelado.ipynb                   # Entrenamiento de modelos
 │   └── 04_Evaluación y comunicación.ipynb  # Métricas y comunicación de resultados
 │
-├── venv/                                   # Ignorado en .gitignore
+├── venv/                                   # Ignorado en .gitignore por >100 MB
 ├── requirements.txt                        # Dependencias
 └── README.md                               # Documentación del proyecto
 ```
