@@ -27,14 +27,14 @@ Taller_ML_Clasificacion/
 │   ├── modelo_final_rf_calibrado.joblib      # Enlace: https://drive.google.com/file/d/1oQN_N9uUga_GFXm7yFddNeWdDGKEWqr2/view?usp=drive_link
 │   └── pipeline_logreg_classweight.joblib    # Enlace: https://drive.google.com/file/d/1jL_n4UyFXe1CAQ53EzglzP-og-1BguY2/view?usp=sharing 
 ├── notebooks/
-│   ├── 01_EDA.ipynb                        # Exploración de datos
-│   ├── 02_Preprocesamiento.ipynb           # Pipelines y preparación
-│   ├── 03_Modelado.ipynb                   # Entrenamiento de modelos
-│   └── 04_Evaluación y comunicación.ipynb  # Métricas y comunicación de resultados
+│   ├── 01_EDA.ipynb                          # Exploración de datos
+│   ├── 02_Preprocesamiento.ipynb             # Pipelines y preparación
+│   ├── 03_Modelado.ipynb                     # Entrenamiento de modelos
+│   └── 04_Evaluación y comunicación.ipynb    # Métricas y comunicación de resultados
 │
-├── venv/                                   # Ignorado en .gitignore por >100 MB
-├── requirements.txt                        # Dependencias
-└── README.md                               # Documentación del proyecto
+├── venv/                                     # Ignorado en .gitignore por >100 MB
+├── requirements.txt                          # Dependencias
+└── README.md                                 # Documentación del proyecto
 ```
 
 ---
